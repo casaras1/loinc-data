@@ -14,7 +14,6 @@ jobs:
   build-job:
     name: Build Job
     runs-on: self-hosted
-    if: github.repository_owner == 'ikmdev'
     steps:
       - uses: actions/setup-java@v4
         with:
